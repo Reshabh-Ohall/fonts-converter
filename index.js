@@ -55,8 +55,8 @@ function getFontDetails(fileName) {
     styleAbbr = 'Ital';
   }
 
-  // Get the first part before any dashes or underscores
-  const parts = fileName.split(/[-_]/);
+  // FIX: Split on dashes (-), underscores (_), OR spaces (\s) to isolate the first word cleanly
+  const parts = fileName.split(/[-_\s]+/);
   const firstPart = parts[0]; 
 
   let fileInitialPrefix = firstPart;
