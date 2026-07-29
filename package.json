@@ -1,0 +1,35 @@
+{
+  "name": "fonts-converter",
+  "version": "1.0.1",
+  "description": "Convert ttf and otf fonts to woff2, with acronym family mapping and ultra-short naming fragments",
+  "main": "index.js",
+  "bin": {
+    "fonts-converter": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "dependencies": {
+    "ttf2woff2": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reshabh-Ohall/fonts-converter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Reshabh-Ohall/fonts-converter/issues"
+  },
+  "homepage": "https://github.com/Reshabh-Ohall/fonts-converter#readme",
+  "keywords": [
+    "font",
+    "woff2",
+    "ttf",
+    "otf",
+    "converter",
+    "cli",
+    "react"
+  ],
+  "author": "Reshabh Ohall",
+  "license": "MIT"
+}
