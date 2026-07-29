@@ -3,8 +3,9 @@
 An ultra-fast, zero-config web font optimizer that batch-converts TTF and OTF fonts into highly compressed WOFF2 assets. It automatically generates dedicated CSS/SCSS stylesheets named directly after short initials, outputs hyper-short filenames, but keeps your `font-family` definitions 100% human-readable inside your style sheets.
 
 <p align="center">
-  <img src="./images/01.png" alt="Fonts Converter - Terminal Workspace Before Starting" width="600">
+  <img src="./images/09.png" alt="Fonts Converter - Optimization Build Completion Diagnostics" width="600">
 </p>
+
 
 ## 🗲 Features
 
@@ -28,14 +29,22 @@ npm install -g fonts-converter
 
 ### 1. Select Font File Formats (Unchecked State)
 The initial terminal screen showing your multi-select font target options before any options are activated.
+
 <p align="center">
-  <img src="./images/02.png" alt="Fonts Converter - Select Font File Formats Menu Unchecked" width="600">
+  <img src="./images/01.png" alt="Fonts Converter - Terminal Workspace Before Starting" width="600">
 </p>
 
 ### 2. Select Font File Formats (Checked Selection)
 Using the spacebar to toggle your target extensions (`ttf`/`otf`) before hitting enter to confirm.
+
+When No Font File Format is Chosen:
 <p align="center">
   <img src="./images/03.png" alt="Fonts Converter - Select Font File Formats Menu Option Checked" width="600">
+</p>
+
+When 1 or More Font File Format is Chosen:
+<p align="center">
+  <img src="./images/02.png" alt="Fonts Converter - Select Font File Formats Menu Unchecked" width="600">
 </p>
 
 ### 3. Select Stylesheet Formats
