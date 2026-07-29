@@ -26,34 +26,34 @@ npm install -g fonts-converter
 
 ## 🛠 Interactive Workflow
 
-### 1. Select Font File Formats
-Choose whether you want to target `.ttf`, `.otf`, or both formats simultaneously using an interactive multi-select checkbox menu.
+### 1. Select Font File Formats (Unchecked State)
+The initial terminal screen showing your multi-select font target options before any options are activated.
 <p align="center">
-  <img src="./images/02.png" alt="Fonts Converter - Select Font File Formats Menu" width="600">
+  <img src="./images/02.png" alt="Fonts Converter - Select Font File Formats Menu Unchecked" width="600">
 </p>
 
-### 2. Select Stylesheet Formats
+### 2. Select Font File Formats (Checked Selection)
+Using the spacebar to toggle your target extensions (`ttf`/`otf`) before hitting enter to confirm.
+<p align="center">
+  <img src="./images/03.png" alt="Fonts Converter - Select Font File Formats Menu Option Checked" width="600">
+</p>
+
+### 3. Select Stylesheet Formats
 Pick your preferred output styling architecture (`css`, `scss`, or export both layouts together).
 <p align="center">
-  <img src="./images/03.png" alt="Fonts Converter - Select Stylesheet Syntax Format Menu" width="600">
+  <img src="./images/04.png" alt="Fonts Converter - Select Stylesheet Syntax Format Menu" width="600">
 </p>
 
-### 3. Select Stylesheet File Type
-Specify the explicit output extension syntax type options for your project generation workspace rules.
-<p align="center">
-  <img src="./images/04.png" alt="Fonts Converter - Select Stylesheet File Type Configuration" width="600">
-</p>
-
-### 4. Asset Compression Initializing
-The module sets up its targets and boots up your real-time processing indicator trackers.
+### 4. Conversion Process (Initializing Modules)
+The module scans your folders, prints total discovered assets, and boots up your real-time processing indicator trackers.
 <p align="center">
   <img src="./images/05.png" alt="Fonts Converter - Conversion Process Spinning Up" width="600">
 </p>
 
-### 5. Compressing Asset Batches
-Watch your files optimize simultaneously under a fluid, custom ANSI progress indicator bar.
+### 5. Conversion Process (Batch Processing)
+Watch your font files optimize simultaneously under a fluid, custom ANSI progress indicator bar.
 <p align="center">
-  <img src="./images/06.png" alt="Fonts Converter - Conversion Process Batch Processing" width="600">
+  <img src="./images/06.png" alt="Fonts Converter - Conversion Process Active Batch Progress" width="600">
 </p>
 
 ### 6. File Naming Wizard
