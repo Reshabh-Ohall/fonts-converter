@@ -1,6 +1,6 @@
 {
   "name": "fonts-converter",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Convert ttf and otf fonts to woff2, with acronym family mapping and ultra-short naming fragments",
   "main": "index.js",
   "bin": {
